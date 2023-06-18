@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 function MainHero() {
   return (
     <main id="inicio" className="bg-green-main">
-      <div className="flex lg:justify-center justify-between items-end ">
+      <div className="flex lg:justify-center justify-evenly items-end ">
         <div className="lg:m-8 m-32 pt-20 flex lg:items-center items-start flex-col">
           <span className="text-white text-xl font-semibold">
             Olá, eu sou o
