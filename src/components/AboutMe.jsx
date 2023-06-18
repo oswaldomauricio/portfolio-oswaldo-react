@@ -1,0 +1,16 @@
+
+
+function AboutMe(){
+    return(
+        <div className="container mx-auto px-7">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a minima recusandae rerum pariatur molestiae ipsum earum amet commodi, quam officia excepturi provident laboriosam cum qui non officiis at nisi?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus possimus voluptate unde qui, fugiat reiciendis minus, perferendis eius natus dicta quasi assumenda repellendus sequi laborum voluptas, non quidem ipsum quod?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora placeat rem labore illo iste magni id obcaecati dolores dicta ratione vitae a est dolorem, aut beatae facere illum debitis sequi?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a minima recusandae rerum pariatur molestiae ipsum earum amet commodi, quam officia excepturi provident laboriosam cum qui non officiis at nisi?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus possimus voluptate unde qui, fugiat reiciendis minus, perferendis eius natus dicta quasi assumenda repellendus sequi laborum voluptas, non quidem ipsum quod?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora placeat rem labore illo iste magni id obcaecati dolores dicta ratione vitae a est dolorem, aut beatae facere illum debitis sequi?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a minima recusandae rerum pariatur molestiae ipsum earum amet commodi, quam officia excepturi provident laboriosam cum qui non officiis at nisi?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus possimus voluptate unde qui, fugiat reiciendis minus, perferendis eius natus dicta quasi assumenda repellendus sequi laborum voluptas, non quidem ipsum quod?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora placeat rem labore illo iste magni id obcaecati dolores dicta ratione vitae a est dolorem, aut beatae facere illum debitis sequi?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam a minima recusandae rerum pariatur molestiae ipsum earum amet commodi, quam officia excepturi provident laboriosam cum qui non officiis at nisi?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus possimus voluptate unde qui, fugiat reiciendis minus, perferendis eius natus dicta quasi assumenda repellendus sequi laborum voluptas, non quidem ipsum quod?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora placeat rem labore illo iste magni id obcaecati dolores dicta ratione vitae a est dolorem, aut beatae facere illum debitis sequi?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus possimus voluptate unde qui, fugiat reiciendis minus, perferendis eius natus dicta quasi assumenda repellendus sequi laborum voluptas, non quidem ipsum quod?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora placeat rem labore illo iste magni id obcaecati dolores dicta ratione vitae a est dolorem, aut beatae facere illum debitis sequi?
+            
+        </div>
+    )
+}
+
+export default AboutMe
