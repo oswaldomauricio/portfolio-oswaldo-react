@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import imgVectorMain from '../../public/img-vector.svg'
 import React from "react";
 import Typewriter from "typewriter-effect";
 
@@ -49,7 +50,7 @@ function MainHero() {
             </a>
           </div>
         </div>
-        <img src="../../public/img-vector.svg" className="lg:hidden pr-32 w-[600px] h-[500px]" />
+        <img src={imgVectorMain} className="lg:hidden pr-32 w-[600px] h-[500px]" />
       </div>
       <div className="sm:mt-32 mt-10 w-full h-20 bg-green-black"></div>
     </main>
