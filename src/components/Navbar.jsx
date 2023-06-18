@@ -37,7 +37,7 @@ function Navbar() {
             </li>
             <li className="list-none flex text-start">
               <a
-                href="#"
+                href="#sobre"
                 className="text-white font-bold text-xl hover:text-green-blue-hover px-6"
               >
                 SOBRE

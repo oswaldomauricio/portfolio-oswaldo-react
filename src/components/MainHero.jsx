@@ -6,8 +6,8 @@ import Typewriter from "typewriter-effect";
 function MainHero() {
   return (
     <main id="inicio" className="bg-green-main">
-      <div className="flex sm:justify-center">
-        <div className="m-8 pt-40 flex items-center flex-col">
+      <div className="flex lg:justify-center justify-between items-end ">
+        <div className="lg:m-8 m-32 pt-20 flex lg:items-center items-start flex-col">
           <span className="text-white text-xl font-semibold">
             Olá, eu sou o
           </span>
@@ -21,6 +21,7 @@ function MainHero() {
                 autoStart: true,
                 loop: true,
                 delay: 100,
+                notranslate: true,
               }}
             />
           </h1>
@@ -42,15 +43,15 @@ function MainHero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="flex items-center gap-2 border-2 border-green-button py-3 px-5 rounded-lg hover:border-white shadow-lg hover:shadow-cyan-500/50">
+              <button className="flex items-center gap-2 border-2 border-green-button py-3 px-5 rounded-lg hover:border-white shadow-md hover:shadow-cyan-500/50">
                 LinkedIn <FaLinkedin />
               </button>
             </a>
           </div>
         </div>
-        <img src="../../public/img-vector.svg" className="sm:hidden" />
+        <img src="../../public/img-vector.svg" className="lg:hidden pr-32 w-[600px] h-[500px]" />
       </div>
-      <div className="mt-32 w-full h-20 bg-green-black"></div>
+      <div className="sm:mt-32 mt-10 w-full h-20 bg-green-black"></div>
     </main>
   );
 }

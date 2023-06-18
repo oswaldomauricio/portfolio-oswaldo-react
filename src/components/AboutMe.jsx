@@ -1,11 +1,11 @@
 import imgAboutMe from "../../public/img2-aboutMe.png";
 import curriculo from "../../public/curriculo - oswaldo.pdf";
-import { FaDownload,  FaEnvelope } from "react-icons/fa";
-
+import { useState } from "react";
+import { FaDownload, FaEnvelope } from "react-icons/fa";
 
 function AboutMe() {
   return (
-    <div className="container mx-auto px-7 h-screen">
+    <div id="sobre" className="container mx-auto px-7 h-screen">
       <div className="flex flex-col items-center">
         <h2 className="font-semibold text-2xl leading-10 text-green-blue pt-10 pb-2">
           SOBRE MIM
@@ -13,7 +13,11 @@ function AboutMe() {
         {/* <img src={imgAboutMe} alt="Foto sobre mim" className="w-48 h-48 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" /> */}
         <div className="flex transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-105 duration-100">
           <div className="w-1 h-48 bg-green-blue "></div>
-          <img src={imgAboutMe} alt="Foto sobre mim" className="w-48 h-48 z-0" />
+          <img
+            src={imgAboutMe}
+            alt="Foto sobre mim"
+            className="w-48 h-48 z-0"
+          />
         </div>
 
         <h3 className="font-semibold text-lg leading-10 text-white pt-2 pb-6">
@@ -29,23 +33,18 @@ function AboutMe() {
         </p>
 
         <div className="text-white flex items-center gap-6 h-full pb-8">
-          <a
-            href={curriculo}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={curriculo} target="_blank" rel="noopener noreferrer">
             <button className="flex items-center gap-2 border-2 border-green-button py-3 px-5 rounded-lg hover:border-white shadow-lg hover:shadow-cyan-500/50">
-            Curriculo <FaDownload />
+              Curriculo <FaDownload />
             </button>
           </a>
           <a
-            href="mailto:oswaldomauricio6@gmail.com" subject="TESTE"
+            href="mailto:oswaldomauricio6@gmail.com"
             target="_blank"
-
             rel="noopener noreferrer"
           >
             <button className="flex items-center gap-2 border-2 border-green-button py-3 px-5 rounded-lg hover:border-white shadow-lg hover:shadow-cyan-500/50">
-            E-mail <FaEnvelope />
+              E-mail <FaEnvelope />
             </button>
           </a>
         </div>
