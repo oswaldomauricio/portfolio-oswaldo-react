@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div>
-      <div className="container mx-auto px-7 bg-green-black fixed -top-2 w-screen">
+      <div className="container mx-auto px-7 bg-green-black fixed -top-2 w-screen z-30">
         <div className="w-full h-20 flex items-center justify-between">
           <img
             src={Logo}
@@ -26,7 +26,7 @@ function Navbar() {
       </div>
       <div>
         {open && (
-          <nav className="w-full h-auto flex  items-end flex-col bg-green-black fixed top-[70px] rounded-bl-3xl flex-">
+          <nav className="w-full h-auto flex  items-end flex-col bg-green-black fixed top-[70px] rounded-bl-3xl z-30">
             <li className="list-none">
               <a
                 href="#inicio"
@@ -54,7 +54,7 @@ function Navbar() {
             <li className="list-none">
               <a
                 href="#"
-                className="text-white font-bold text-xl hover:text-green-blue-hover px-6 hover:"
+                className="text-white font-bold text-xl hover:text-green-blue-hover px-6"
               >
                 EXPERIENCIAS
               </a>
