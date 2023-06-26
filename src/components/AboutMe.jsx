@@ -10,9 +10,8 @@ function AboutMe() {
         <h2 className="font-semibold text-2xl leading-10 text-green-blue pt-10 pb-2">
           SOBRE MIM
         </h2>
-        {/* <img src={imgAboutMe} alt="Foto sobre mim" className="w-48 h-48 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" /> */}
-        <div className="flex transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-105 duration-100">
-          <div className="w-1 h-48 bg-green-blue "></div>
+        <div className="flex transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-105 duration-100 items-start">
+          <div className="w-1 h-48 bg-green-blue"></div>
           <img
             src={imgAboutMe}
             alt="Foto sobre mim"
@@ -49,6 +48,7 @@ function AboutMe() {
           </a>
         </div>
       </div>
+      
     </div>
   );
 }
